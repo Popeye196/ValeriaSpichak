@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    // font-family: 'Neutral Face', sans-serif;
+    // font-family: 'Cinzel', sans-serif;
+    // font-family: 'Montserrat', sans-serif;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+button{
+    cursor: pointer;
+}
+html {
+    scroll-behavior: smooth;
+}

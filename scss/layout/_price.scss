@@ -1,0 +1,65 @@
+.price{
+    padding-top: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid #C0B7AE;
+
+    &__list{
+        position: relative;
+        margin: 120px 0 30px;   
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__info{ 
+        text-align: center;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    &__cost{
+        margin: 0 150px 0 auto;
+        max-width: 210px;
+        text-align: center;
+        margin-top: 10px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+
+        background-image: url(/images/price-cost-bg.png);
+        background-repeat: no-repeat;
+
+    }   
+
+    &__reportage > &__list{
+        gap: 0;
+    }
+
+     &__container > &__info{
+        text-align: left;
+        background-image: url(/images/price-reportage-bg.png);
+        background-repeat: no-repeat;
+        background-position-x: 120px;
+        background-position-y: 40px;
+     }
+
+    &__container{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 95px;
+    }
+
+    &__info-bold{
+        font-weight: bold;
+    }
+}

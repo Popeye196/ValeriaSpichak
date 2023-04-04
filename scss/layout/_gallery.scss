@@ -1,0 +1,12 @@
+.gallery{
+    
+    padding: 65px 0;
+    border-bottom: 2px solid #C0B7AE;
+
+        &__list{
+            display: flex; 
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+}

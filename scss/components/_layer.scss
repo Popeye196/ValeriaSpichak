@@ -1,0 +1,12 @@
+.layer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 156px;
+    line-height: 210px;
+    color: white;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.19);
+}

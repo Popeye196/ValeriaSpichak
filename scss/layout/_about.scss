@@ -1,0 +1,74 @@
+.about{
+
+    border-bottom: 2px solid #C0B7AE;
+    background-image: url(/images/Vector\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 90px 180px;
+
+        &__container{
+            display: flex;
+            justify-content: space-between;
+            padding: 22px 10px 10px;
+            border-top: 2px solid #C0B7AE;
+            margin-top: 10px;
+        }
+
+        &__photo1{
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        &__text{
+            width: 500px;
+        }
+
+        &__first-box{
+            display: flex;
+            gap: 150px;
+        }
+
+        & p{
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            color: #000000;
+
+            padding-top: 20px;
+        }
+
+        &__text-padding{
+            padding: 0 155px 0;
+        }
+
+        &__text-bg1{
+            background-image: url(/images/about-me-bg.png);
+            background-repeat: no-repeat;
+            background-position: 50px 75px
+        }
+
+        &__text-bg2 {
+            background-image: url(/images/about-me-bg.png);
+            background-repeat: no-repeat;
+            background-position: 75px 190px;
+        }
+
+        &__text-bg3 {
+            background-image: url(/images/about-me-bg.png);
+            background-repeat: no-repeat;
+            background-position: -20px 10px ;
+        }
+
+        &__bg1{
+            background-image: url(/images/Vector\ 2.png);
+            background-repeat: no-repeat;
+            background-position: 0px -390px;
+        }
+
+        &__bg2{
+            background-image: url(/images/Vector\ 3.png);
+            background-repeat: no-repeat;
+            background-position: 0px -410px;
+        }
+        
+}

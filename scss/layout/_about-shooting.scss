@@ -1,0 +1,91 @@
+.about-shooting{
+    margin:  auto;
+        
+        &__container{
+            width: 900px;
+            margin: 0 auto 40px;
+        }
+
+        &__text {
+            margin-top: 30px;
+
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            font-variant: all-small-caps;
+        }
+
+        &__photo-list{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 85px;
+        }
+
+        &__layer{
+            font-family: 'Cinzel';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 86px;
+            text-transform: uppercase;
+            color: white;
+            -webkit-text-stroke: 1px rgba(0, 0, 0, 0.19);
+        }
+
+        &__box{
+            margin: 20px 0 110px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        &__decorating{
+            width: 600px;
+            height: 3px;
+            background: rgba(0, 0, 0, 0.19);
+            
+        }
+
+        &__icons-list{
+            margin: 50px 0 20px;
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        &__icons-items{
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(192, 183, 174, 0.56);
+            border-radius: 50%;
+        }
+
+        &__address-list{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 110px;
+        }
+
+        &__address-link{
+            font-family: 'Cinzel';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 27px;
+            text-transform: lowercase;
+            color: #000000;
+        }
+
+        &__box-button{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 25px;  
+        }
+}

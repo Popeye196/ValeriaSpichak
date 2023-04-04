@@ -1,0 +1,55 @@
+.faq{
+    padding:0 0 35px;
+    border-bottom: 2px solid #C0B7AE;
+
+    & > .head {
+        margin: 35px 0 ;
+    }
+
+    & > .layer{
+        z-index: -1;
+        margin-top: -40px;
+    }
+
+    &__items {
+        display: flex;
+        align-items: center;
+        width: 430px;
+        margin-bottom: 30px;
+    }
+
+    &__items:nth-child(odd) {
+        margin-right: 120px;
+    }
+
+    &__items:last-child{
+        justify-content: end;
+    }
+    
+    &__list{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-basis: calc((100% - 375px)/2);
+    }
+    
+    &__text{
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: uppercase;
+    }
+
+    &__number{
+        font-family: 'Cinzel';
+        font-weight: 400;
+        font-size: 71px;
+        line-height: 96px;
+        color: white;
+        -webkit-text-stroke: 1px rgba(0, 0, 0, 0.19);
+        
+        margin-right: 20px;
+    }
+    
+}
